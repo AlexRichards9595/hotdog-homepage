@@ -12,7 +12,7 @@ header {
   justify-content: center;
   margin: auto;
   height: 83vh;
-  background-color: salmon;
+  background-color: whitesmoke;
 }
 .landing__page__container {
   display: flex;
@@ -28,10 +28,4 @@ header {
 }
 .hotdog__type {
   display: flex;
-}
-.hotdog__type__text {
-  width: 50%;
-}
-.hotdog__type__picture {
-  width: 50%;
 }
