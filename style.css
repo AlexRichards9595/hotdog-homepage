@@ -1,5 +1,21 @@
-header {
+.header__pictures {
   background-color: blue;
+}
+.header__nav {
+  background-color: indigo;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  width: 60vw;
+}
+li {
+  list-style: none;
 }
 footer {
   background-color: red;
