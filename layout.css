@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  grid-template-rows: 400px auto 30px;
+}
+header {
+  height: 100%;
+}
