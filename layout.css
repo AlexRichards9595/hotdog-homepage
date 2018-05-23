@@ -1,8 +1,15 @@
 .container {
   display: grid;
-  grid-template-rows: 40vh auto 30px;
+  grid-template-rows: 70vh auto 30px;
 }
 header {
   display: grid;
   grid-template-rows: 85% 15%;
+}
+.landing__page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
 }
