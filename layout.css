@@ -1,15 +1,37 @@
 .container {
   display: grid;
-  grid-template-rows: 70vh auto 30px;
+  grid-template-rows: 70vh auto 75px;
 }
 header {
   display: grid;
-  grid-template-rows: 85% 15%;
+  grid-template-rows: 83% 22%;
 }
 .landing__page {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  height: 80vh;
+  justify-content: center;
+  margin: auto;
+  height: 83vh;
+  background-color: salmon;
+}
+.landing__page__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  width: 60%
+}
+.main__bottom {
+  display: grid;
+  grid-template-rows: repeat(3, 70vh);
+}
+.hotdog__type {
+  display: flex;
+}
+.hotdog__type__text {
+  width: 50%;
+}
+.hotdog__type__picture {
+  width: 50%;
 }

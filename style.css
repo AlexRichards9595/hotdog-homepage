@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 .header__pictures {
   background-color: blue;
 }
@@ -17,6 +20,10 @@ nav ul {
 li {
   list-style: none;
 }
+.hotdog__type__text {
+  background-color: goldenrod;
+}
 footer {
   background-color: red;
+  height: 100%;
 }
