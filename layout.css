@@ -31,3 +31,11 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}

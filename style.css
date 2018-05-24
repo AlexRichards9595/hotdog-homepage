@@ -2,6 +2,20 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+.insta__logo {
+  position: absolute;
+  display: flex;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  color: white;
+  padding: 1rem;
+}
+.instagram-logo {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding-right: .5rem;
+}
 h1 {
   font-size: 3.5rem;
   font-weight: normal;
@@ -30,11 +44,15 @@ nav ul {
   align-items: center;
   margin: auto;
   justify-content: space-between;
-  width: 45vw;
+  width: 50vw;
   font-size: 1.25rem;
 }
 nav ul li {
-  font-family: "Arial", "Helvetica", "sans-serif";
+  font-weight: bolder;
+  padding: 5px;
+}
+nav ul li:hover {
+  text-decoration-line: underline;
 }
 li {
   list-style: none;
@@ -45,6 +63,11 @@ li {
   color: white;
   padding: 1.3rem;
   border-radius: 5px;
+}
+.main__action__button:hover {
+  background-color: white;
+  color: #00688B;
+  border-color: #00688B;
 }
 .hotdog__type__text {
   width: 50%;
@@ -78,7 +101,6 @@ li {
   width: 70%;
 }
 .hotdog__type__picture {
-  min-width: 400px;
   width: 50%;
 }
 .hotdog__type__picture img {
@@ -100,4 +122,51 @@ footer {
 }
 .footer__right li {
   margin-right: 1rem;
+}
+.footer__right li:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+  .hidden {
+    display: none;
+  }
+  .header__pic {
+    width: 50%;
+  }
+  nav ul {
+    font-size: 1rem;
+    width: 80vw;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .main__action__button {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .hotdog__type__text {
+    width: 100vw;
+    height: 50%;
+  }
+  h2, .mdash {
+    padding-top: 2rem;
+  }
+  .hotdog__type__picture {
+    width: 100vw;
+    height: 50%
+  }
+  footer {
+    justify-content: center;
+  }
+  .footer__left {
+    order: 2;
+  }
+  .footer__right ul {
+    width: 80vw;
+    justify-content: center;
+  }
+  .vegan__pic {
+    order: 2;
+  }
 }
