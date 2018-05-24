@@ -3,10 +3,11 @@
   font-family: 'Open Sans', sans-serif;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: normal;
   text-align: center;
   color: #606060;
+  margin-bottom: 2rem;
 }
 .header__pictures {
   width: 100%;
@@ -29,7 +30,7 @@ nav ul {
   align-items: center;
   margin: auto;
   justify-content: space-between;
-  width: 50vw;
+  width: 45vw;
   font-size: 1.25rem;
 }
 nav ul li {
@@ -46,13 +47,38 @@ li {
   border-radius: 5px;
 }
 .hotdog__type__text {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+.hotdog__type__text__container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  width: 50%;
+}
+.mdash{
+  color: #00688B;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-right: 1rem;
+  float: left;
+  align-self: flex-start;
+}
+.hotdog__text h2 {
+  font-weight: bolder;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+}
+.hotdog__text p {
+  color: gray;
+}
+.hotdog__text {
+  width: 70%;
 }
 .hotdog__type__picture {
+  min-width: 400px;
   width: 50%;
 }
 .hotdog__type__picture img {

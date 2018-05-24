@@ -4,7 +4,7 @@
 }
 header {
   display: grid;
-  grid-template-rows: 83% 22%;
+  grid-template-rows: 83% 17%;
 }
 .landing__page {
   display: flex;
@@ -13,6 +13,7 @@ header {
   margin: auto;
   height: 83vh;
   background-color: whitesmoke;
+  box-shadow: inset 0px 1px 10px 0px lightgrey;
 }
 .landing__page__container {
   display: flex;
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 60%;
-  width: 60%
+  width: 70%
 }
 .main__bottom {
   display: grid;
@@ -28,4 +29,5 @@ header {
 }
 .hotdog__type {
   display: flex;
+  flex-wrap: wrap;
 }
