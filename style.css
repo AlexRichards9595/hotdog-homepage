@@ -2,6 +2,10 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .insta__logo {
   position: absolute;
   display: flex;
@@ -163,7 +167,7 @@ footer {
     order: 2;
   }
   .footer__right ul {
-    width: 80vw;
+    width: 85vw;
     justify-content: center;
   }
   .vegan__pic {
